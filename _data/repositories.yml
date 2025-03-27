@@ -1,14 +1,8 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - abodeza
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - abodeza/CSCI4961_labs_projects
+  - abodeza/tic-tac-toe-abodeza
