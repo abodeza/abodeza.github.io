@@ -10,7 +10,6 @@ horizontal: false
 ---
 # Currently a work in progress..
 <!-- pages/projects.md -->
-{% comment %}
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
@@ -64,4 +63,3 @@ horizontal: false
   {% endif %}
 {% endif %}
 </div>
-{% endcomment %}
