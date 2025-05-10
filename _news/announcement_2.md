@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I started my training at Tuwaiq Academy
-date: 2025-02-03 16:11:00-0400
+date: 2025-03-02 16:11:00-0400
 inline: false
 related_posts: false
 
