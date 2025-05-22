@@ -2,14 +2,18 @@
 layout: about
 title: about
 permalink: /
-subtitle: AI Engineer, Data Scientist, Electrical Engineer
+subtitle: ML Engineer, Data Scientist, Electrical Engineer
 
 profile:
   align: right
   image: prof_pic.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Riyadh, Saudi Arabia</p>
+    <div style="text-align: center;">
+      <p style="margin-top: 10px;">📍 Riyadh, Saudi Arabia</p>
+    </div>
+  # more_info: >
+  #   <p>Riyadh, Saudi Arabia</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
