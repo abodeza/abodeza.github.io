@@ -31,7 +31,7 @@ latest_posts:
 
 
 
-I earned my B.Sc. in Electrical Engineering from [Rensselaer Polytechnic Insitute](https://ecse.rpi.edu/), where I focused on Artificial Intelligence and Machine Learning. I completed over five advanced courses in the field, including Intro to Machine Learning, Deep Learning, Reinforcement Learning, Probabilistic Graphical Models, and more. Several of my final projects that bridge theory with real-world applications are showcased on the Projects page.
+*Portfolio is being updated* I earned my B.Sc. in Electrical Engineering from [Rensselaer Polytechnic Insitute](https://ecse.rpi.edu/), where I focused on Artificial Intelligence and Machine Learning. I completed over five advanced courses in the field, including Intro to Machine Learning, Deep Learning, Reinforcement Learning, Probabilistic Graphical Models, and more. Several of my final projects that bridge theory with real-world applications are showcased on the Projects page.
 
 Throughout my studies, I pursued a wide range of interests. I explored topics beyond my core curriculum, such as computer system design, algorithms, and even delved into the quantum world through an Intro to Quantum Computing course. One project I'm especially proud of is a digit classification task I successfully ran on the IBM Quantum System One located on RPI’s campus, which can also be found in the Projects folder.
 
