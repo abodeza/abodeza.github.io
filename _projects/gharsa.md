@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Predictive Refrigerant Leak Modelling in VRF Systems
+title: Gharsa
 description: Project Overview
 img: assets/img/vrf_diagram.png
 importance: 1
@@ -28,7 +28,7 @@ We designed a non-invasive solution using existing system diagnostics. By applyi
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/vrf_cm.png" title="Model Accuracy: Confusion Matrix" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/VRF_CM.png" title="Model Accuracy: Confusion Matrix" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
