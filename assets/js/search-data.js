@@ -395,11 +395,36 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
+            },},{id: "projects-image-captioning-vit",
+          title: 'Image Captioning (ViT)',
+          description: "Walkthrough",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/ViT/";
+            },},{id: "projects-a-bi-objective-optimization-approach-for-enhancing-fedul",
+          title: 'A Bi-Objective Optimization Approach for Enhancing FedUL',
+          description: "Algorithm Analysis",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/fedul/";
+            },},{id: "projects-gharsa",
+          title: 'Gharsa',
+          description: "Project Overview",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/gharsa/";
+            },},{id: "projects-transfer-learning-amp-auto-ml-using-optuna",
+          title: 'Transfer Learning &amp;amp; Auto-ML Using Optuna',
+          description: "Walkthrough",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/tl_adv_tech/";
+            },},{id: "projects-quantum-inspired-machine-learning-using-tensor-networks",
+          title: 'Quantum-Inspired Machine Learning Using Tensor Networks',
+          description: "Walkthrough",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/tn_qc/";
             },},{id: "projects-predictive-refrigerant-leak-modelling-in-vrf-systems",
           title: 'Predictive Refrigerant Leak Modelling in VRF Systems',
           description: "Project Overview",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
+              window.location.href = "/projects/vrf/";
             },},{
         id: 'social-discord',
         title: 'Discord',
