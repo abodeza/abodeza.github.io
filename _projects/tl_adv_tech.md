@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Transfer Learning & Auto-ML Using Optuna
+title: Transfer Learning & Auto-ML Using Optuna [WIP]
 description: Walkthrough
 img: assets/img/vrf_diagram.png
 importance: 1
