@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Gharsa
+title: Gharsa [WIP]
 description: Project Overview
 img: assets/img/vrf_diagram.png
 importance: 1
