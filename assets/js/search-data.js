@@ -395,8 +395,8 @@ ninja.data = [{
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2/";
-            },},{id: "projects-image-captioning-vit",
-          title: 'Image Captioning (ViT)',
+            },},{id: "projects-image-captioning-vit-wip",
+          title: 'Image Captioning (ViT) [WIP]',
           description: "Walkthrough",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ViT/";
@@ -410,8 +410,8 @@ ninja.data = [{
           description: "Project Overview",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gharsa/";
-            },},{id: "projects-transfer-learning-amp-auto-ml-using-optuna",
-          title: 'Transfer Learning &amp;amp; Auto-ML Using Optuna',
+            },},{id: "projects-transfer-learning-amp-auto-ml-using-optuna-wip",
+          title: 'Transfer Learning &amp;amp; Auto-ML Using Optuna [WIP]',
           description: "Walkthrough",
           section: "Projects",handler: () => {
               window.location.href = "/projects/tl_adv_tech/";
