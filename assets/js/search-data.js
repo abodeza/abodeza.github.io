@@ -410,8 +410,8 @@ ninja.data = [{
           description: "Project Overview",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gharsa/";
-            },},{id: "projects-transfer-learning-amp-auto-ml-using-optuna-wip",
-          title: 'Transfer Learning &amp;amp; Auto-ML Using Optuna [WIP]',
+            },},{id: "projects-transfer-learning-amp-auto-ml-using-optuna",
+          title: 'Transfer Learning &amp;amp; Auto-ML Using Optuna',
           description: "Walkthrough",
           section: "Projects",handler: () => {
               window.location.href = "/projects/tl_adv_tech/";
