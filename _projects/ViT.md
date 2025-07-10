@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Image Captioning (ViT)
+title: Image Captioning (ViT) [WIP]
 description: Walkthrough
 img: assets/img/vrf_diagram.png
 importance: 1
