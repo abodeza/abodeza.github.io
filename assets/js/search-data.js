@@ -410,13 +410,13 @@ ninja.data = [{
           description: "Project Overview",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gharsa/";
-            },},{id: "projects-transfer-learning-amp-auto-ml-using-optuna",
-          title: 'Transfer Learning &amp;amp; Auto-ML Using Optuna',
+            },},{id: "projects-transfer-learning-amp-auto-ml-using-optuna-wip",
+          title: 'Transfer Learning &amp;amp; Auto-ML Using Optuna [WIP]',
           description: "Walkthrough",
           section: "Projects",handler: () => {
               window.location.href = "/projects/tl_adv_tech/";
-            },},{id: "projects-quantum-inspired-machine-learning-using-tensor-networks",
-          title: 'Quantum-Inspired Machine Learning Using Tensor Networks',
+            },},{id: "projects-quantum-inspired-machine-learning-using-tensor-networks-wip",
+          title: 'Quantum-Inspired Machine Learning Using Tensor Networks [WIP]',
           description: "Walkthrough",
           section: "Projects",handler: () => {
               window.location.href = "/projects/tn_qc/";
