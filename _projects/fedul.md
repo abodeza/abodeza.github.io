@@ -1,6 +1,6 @@
 ---
 layout: page
-title: A Bi-Objective Optimization Approach for Enhancing FedUL
+title: A Bi-Objective Optimization Approach for Enhancing FedUL [WIP]
 description: Algorithm Analysis
 img: assets/img/vrf_diagram.png
 importance: 1
