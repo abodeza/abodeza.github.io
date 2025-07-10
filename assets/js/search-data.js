@@ -405,8 +405,8 @@ ninja.data = [{
           description: "Algorithm Analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/fedul/";
-            },},{id: "projects-gharsa",
-          title: 'Gharsa',
+            },},{id: "projects-gharsa-wip",
+          title: 'Gharsa [WIP]',
           description: "Project Overview",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gharsa/";
