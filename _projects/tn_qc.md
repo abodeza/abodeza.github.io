@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Quantum-Inspired Machine Learning Using Tensor Networks
+title: Quantum-Inspired Machine Learning Using Tensor Networks [WIP]
 description: Walkthrough
 img: assets/img/vrf_diagram.png
 importance: 1
