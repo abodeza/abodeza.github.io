@@ -83,8 +83,8 @@ ninja.data = [{
           description: "Project Walkthrough",
           section: "Projects",handler: () => {
               window.location.href = "/projects/gharsa/";
-            },},{id: "projects-recommender-model-wip",
-          title: 'Recommender Model [WIP]',
+            },},{id: "projects-recommender-system-wip",
+          title: 'Recommender System [WIP]',
           description: "Code",
           section: "Projects",handler: () => {
               window.location.href = "/projects/rec/";
@@ -100,7 +100,7 @@ ninja.data = [{
               window.location.href = "/projects/tn_qc/";
             },},{id: "projects-predictive-refrigerant-leak-modelling-in-vrf-systems",
           title: 'Predictive Refrigerant Leak Modelling in VRF Systems',
-          description: "Project Overview",
+          description: "A Project Overview",
           section: "Projects",handler: () => {
               window.location.href = "/projects/vrf/";
             },},{
