@@ -1,19 +1,21 @@
 ---
 layout: page
 title: Predictive Refrigerant Leak Modelling in VRF Systems
-description: Project Overview
+description: A Project Overview
 img: assets/img/F24 Predictive LEak Modeling VRF Final Review 6.jpeg
 importance: 1
 category: work
 related_publications: false
 ---
+---
 
-# ML-Based Refrigerant Leak Detection in VRF HVAC Systems
 
-## Context and Motivation
+## ML-Based Refrigerant Leak Detection in VRF HVAC Systems
+
+### Context and Motivation
 Variable refrigerant flow (VRF) systems offer high efficiency but their distributed piping makes refrigerant leaks hard to detect. Traditional methods, such as installing pressure sensors at every branch, are invasive, costly, and can introduce new leak points. We partnered with a clean energy consultant and a state energy authority to build a non-intrusive, data-driven solution.
 
-## Challenge
+### Challenge
 A commercial facility’s VRF system logs hundreds of diagnostic parameters across five indoor units and a shared outdoor unit. Key questions:
 - Which signals indicate the early stages of a leak?
 - How do we distinguish natural operating variation from actual refrigerant loss?
@@ -21,7 +23,7 @@ A commercial facility’s VRF system logs hundreds of diagnostic parameters acro
 
 ## Approach
 
-### Data exploration and feature selection  
+**Data exploration and feature selection**
 - Applied principal component analysis to reduce 200+ parameters to a handful of principal components  
 - Ran pairwise correlation analysis to confirm which raw signals drive those components  
 
@@ -39,11 +41,15 @@ A commercial facility’s VRF system logs hundreds of diagnostic parameters acro
 - Simulated under-charge (10–20 percent refrigerant loss) scenarios  
 - Trained a fully connected neural network to classify normal vs. under-charged states  
 
-<div class="row">
-  <div class="col-sm mt-3 mt-md-0">
-    {% include figure.liquid loading="eager" path="assets/img/VRF_CM.png" title="Confusion Matrix" class="img-fluid rounded z-depth-1" %}
-  </div>
+
+<div style="display: flex; justify-content: center; margin-bottom: 1.5em;">
+  <img
+    src="{{ '/assets/img/VRF_CM.png' | relative_url }}" 
+    alt="Confusion Matrix for Classification Model Testing" 
+    style="width: 600px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.15);" 
+  />
 </div>
+
 <div class="caption">
   Model performance on simulated leak scenarios, showing high detection rate and low false-alarm rate.
 </div>

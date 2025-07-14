@@ -105,7 +105,7 @@ def show_anns(anns):
 ```
 
 ## 2. Color Masking
-Here is a pipeline I created to highlight the possibly diseased areas in the leaf. You can learn how to make one from my blog section found on my [portfolio](https://abodeza.github.io/).
+Here is a pipeline I created to highlight the possibly diseased areas in the leaf. You can learn how to make one from my blog section found on my [medium article](https://medium.com/@abodeza/masking-diseases-on-plant-leaves-6b43b7d8212f).
 
 
 ```python
@@ -262,7 +262,7 @@ def crop_segments(image: np.ndarray, filtered_masks: list, min_size: int = MIN_S
 
 
 ## Instantiate SAM
-We'll instantiate the mask generator in accordance with our needs. First, we'll enable it look at more fine grained details in the images (crops) as diseases could sometimes be small (i.e. spots). Additionally, we want to ignore noise in images so we'll keep the IOU threshold high, and
+We'll instantiate the mask generator in accordance with our needs. First, we'll enable it look at more fine grained details in the images (crops) as diseases could sometimes be small (i.e. spots).
 
 
 ```python
@@ -277,9 +277,6 @@ sam.to(device=DEVICE)
 
 mask_generator = SamAutomaticMaskGenerator(
     sam,
-    # points_per_side=20,  # Manage the number of masks considered
-    # pred_iou_thresh=0.60,  # Increase the minimum predicted IoU for masks
-    # box_nms_thresh: float = 0.5,
 )
 ```
 

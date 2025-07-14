@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Recommender Model [WIP]
+title: Recommender System [WIP]
 description: Code
 img: assets/img/ViT_image.png
 importance: 2
-category: computer vision
+category: _computer_vision
 related_publications: false
 ---
 
