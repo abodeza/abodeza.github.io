@@ -5,4 +5,7 @@ repo_description_lines_max: 2
 
 github_repos:
   - abodeza/CSCI4961_labs_projects
-  - abodeza/tic-tac-toe-abodeza
+  - abodeza/Gharsa
+  - abodeza/plant_disease_detection
+  - abodeza/presentDL
+  - abodeza/abodeza.github.io
