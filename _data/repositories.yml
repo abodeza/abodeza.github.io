@@ -1,7 +1,7 @@
 github_users:
   - abodeza
 
-repo_description_lines_max: 2
+repo_description_lines_max: 3
 
 github_repos:
   - abodeza/CSCI4961_labs_projects
