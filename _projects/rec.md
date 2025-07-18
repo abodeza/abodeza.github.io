@@ -9,3 +9,4 @@ related_publications: false
 ---
 
 # Updated soon
+A project encompassing a recommender system and video optimization components.
