@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-projects",
+  },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "nav-projects",
           title: "projects",
           description: "A growing collection of my projects",
           section: "Navigation",
@@ -23,19 +30,19 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/repositories/";
           },
+        },{id: "nav-cv",
+          title: "cv",
+          description: "My CV rendered from standard json. A PDF copy is also available by clicking on the PDF icon to the right.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/cv/";
+          },
         },{id: "dropdown-blog",
               title: "blog",
               description: "",
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/blog/";
-              },
-            },{id: "dropdown-cv",
-              title: "cv",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/cv/";
               },
             },{id: "dropdown-certificates",
               title: "certificates",
@@ -45,17 +52,17 @@ ninja.data = [{
                 window.location.href = "/certificates/";
               },
             },{id: "post-masking-diseases-on-plant-leaves",
-      
-        title: 'Masking Diseases on Plant Leaves <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
-      
-      description: "",
-      section: "Posts",
-      handler: () => {
         
-          window.open("https://medium.com/@abodeza/masking-diseases-on-plant-leaves-6b43b7d8212f?source=rss-d053c50bd307------2", "_blank");
+          title: 'Masking Diseases on Plant Leaves <svg width="1.2rem" height="1.2rem" top=".5rem" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg"><path d="M17 13.5v6H5v-12h6m3-3h6v6m0-6-9 9" class="icon_svg-stroke" stroke="#999" stroke-width="1.5" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round"></path></svg>',
         
-      },
-    },{id: "books-the-godfather",
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.open("https://medium.com/@abodeza/masking-diseases-on-plant-leaves-6b43b7d8212f?source=rss-d053c50bd307------2", "_blank");
+          
+        },
+      },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
