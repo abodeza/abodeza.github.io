@@ -1,19 +1,19 @@
 ---
 layout: page
 title: more
-nav: true
+nav: false
 nav_order: 8
-dropdown: true
+dropdown: false
 children:
   # - title: bookshelf
   #   permalink: /books/
   # - title: divider
-  - title: blog
-    permalink: /blog/
-  - title: divider
+  # - title: blog
+  #   permalink: /blog/
+  # - title: divider
   # - title: cv
   #   permalink: /cv/
   # - title: divider
-  - title: certificates
-    permalink: /certificates/
+  # - title: certificates
+  #   permalink: /certificates/
 ---

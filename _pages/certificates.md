@@ -3,7 +3,7 @@ layout: page
 permalink: /certificates/
 title: awards & certificates
 description: Awards and certificates received.
-nav: false
+nav: true
 nav_order: 6
 ---
 
