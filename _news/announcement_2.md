@@ -1,13 +1,13 @@
 ---
 layout: post
-title: I started my training at Tuwaiq Academy
-date: 2025-03-02 16:11:00-0400
+title: I finished my training at Tuwaiq Academy
+date: 2025-05-15 23:59:00-0400
 inline: false
 related_posts: false
 
 
 ---
-Today I started my training at Tuwaiq in the bootcamp <a href="https://tuwaiq.edu.sa/bootcamp/2xde6PNv/view">Building and Deploying AI Models</a>. The focus of the bootcamp is to teach industry required skills for deploying AI models across various domains, including, general ML applications, computer vision, natural language processing, and more.
+Today I finished my training at Tuwaiq Academy in the bootcamp <a href="https://tuwaiq.edu.sa/bootcamp/2xde6PNv/view">Building and Deploying AI Models</a>. The focus of the bootcamp was to teach industry required skills for deploying AI models across various domains, including, general ML applications, computer vision, natural language processing, and more. I worked with my team to solve the difficulties in detecting plant diseases. Please refer to the projects tab for details.
 
 ---
 
