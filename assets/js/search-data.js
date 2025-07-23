@@ -93,8 +93,8 @@ ninja.data = [{
           description: "Walkthrough",
           section: "Projects",handler: () => {
               window.location.href = "/projects/tl_adv_tech/";
-            },},{id: "projects-quantum-inspired-machine-learning-using-tensor-networks-wip",
-          title: 'Quantum-Inspired Machine Learning Using Tensor Networks [WIP]',
+            },},{id: "projects-quantum-inspired-machine-learning-using-tensor-networks",
+          title: 'Quantum-Inspired Machine Learning Using Tensor Networks',
           description: "Walkthrough",
           section: "Projects",handler: () => {
               window.location.href = "/projects/tn_qc/";
