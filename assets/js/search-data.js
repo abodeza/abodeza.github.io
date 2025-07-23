@@ -73,8 +73,8 @@ ninja.data = [{
           description: "Walkthrough",
           section: "Projects",handler: () => {
               window.location.href = "/projects/ViT/";
-            },},{id: "projects-a-bi-objective-optimization-approach-for-enhancing-fedul-wip",
-          title: 'A Bi-Objective Optimization Approach for Enhancing FedUL [WIP]',
+            },},{id: "projects-a-bi-objective-optimization-approach-for-enhancing-fedul",
+          title: 'A Bi-Objective Optimization Approach for Enhancing FedUL',
           description: "Algorithm Analysis",
           section: "Projects",handler: () => {
               window.location.href = "/projects/fedul/";
