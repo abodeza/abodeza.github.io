@@ -11,7 +11,7 @@ related_publications: false
 
 ## Image Captioning with Vision Transformer
 
-This project tackles the problem of image captioning, which involves generating natural language descriptions for input images. Developed as the final project for the "Introduction to Deep Learning" course (ECSE 4850), the solution uses a Vision Transformer (ViT) as the image encoder and a Transformer decoder to generate captions. The model is trained and evaluated on the Flickr8K dataset, where each image is associated with five human-written captions.
+This project tackles the problem of image captioning, which involves generating natural language descriptions for input images. Developed initially as the final project for the "Introduction to Deep Learning" course (ECSE 4850), which was then improved to utilize modern cloud-based ML tools. The solution uses a Vision Transformer (ViT) as the image encoder and a Transformer decoder to generate captions. The model is trained and evaluated on the Flickr8K dataset, where each image is associated with five human-written captions.
 
 ### Core Components
 
