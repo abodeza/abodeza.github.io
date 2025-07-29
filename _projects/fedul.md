@@ -15,6 +15,7 @@ Formal report can be found here: [pdf](/assets/pdf/ECSE_4964_Project_Report.pdf)
 <div id="toc">
   <h2>Table of Contents</h2>
   <ul>
+    <li><a href="#abstract">Abstract</a></li>
     <li><a href="#introduction">Introduction</a></li>
     <li><a href="#our-contribution">Our Contribution</a></li>
     <li><a href="#proposed-algorithm">Proposed Algorithm</a></li>
@@ -28,6 +29,26 @@ Formal report can be found here: [pdf](/assets/pdf/ECSE_4964_Project_Report.pdf)
 ---
 
 
+
+
+<style>
+.abstract-box {
+  margin: 2em auto;
+  max-width: 70%;
+  padding: 1.2em;
+  border-left: 4px solid var(--global-theme-color);
+  background-color: var(--global-code-bg-color);
+  font-style: italic;
+  border-radius: 6px;
+}
+</style>
+<div class="abstract-box">
+  <h2>Abstract</h2>
+  <p>
+ Federated learning (FL) enables clients to collectively train a machine learning model without sharing their data, thus preserving privacy. Federated learning is particularly effective in supervised settings. However, in unsupervised settings, where clients prefer not to disclose their data labels, the optimization of the objective function faces additional challenges. We propose a Bi-Objective optimization method that enhances Federated Unsupervised Learning (FedUL) algorithm to address these issues. This report validates the effectiveness of our method experimentally using publicly accessible data to ensure reproducibility of the results.
+</p>
+
+</div>
 
 
 <h1 id="introduction">Introduction</h1>
@@ -409,10 +430,10 @@ handles the non-IID datasets well.</p>
   />
 </div>
 <div class="caption">
-  Figure 5: Mean Error Rate Method 1 (IID).
+  Figure 5: Mean Error Rate Method 1 (IID) during training.
 </div>
 
-<div style="display: flex; justify-content: center; margin-bottom: 1.5em;">
+<!-- <div style="display: flex; justify-content: center; margin-bottom: 1.5em;">
   <img
     src="{{ '/assets/img/fedul/Mean Error Rate Method 2 (IID).png' | relative_url }}" 
     alt="Confusion Matrix for Classification Model Testing" 
@@ -443,5 +464,5 @@ handles the non-IID datasets well.</p>
 </div>
 <div class="caption">
   Figure 8: Mean Error Rate Method 2 (non-IID).
-</div>
+</div> -->
 
