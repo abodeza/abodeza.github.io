@@ -7,5 +7,5 @@ github_repos:
   - abodeza/CSCI4961_labs_projects
   - abodeza/Gharsa
   - abodeza/plant_disease_detection
-  - abodeza/clip-ViT-B-32-leaf-disease
+  # - abodeza/clip-ViT-B-32-leaf-disease
   - abodeza/abodeza.github.io
