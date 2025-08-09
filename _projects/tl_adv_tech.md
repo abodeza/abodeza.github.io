@@ -4,7 +4,7 @@ title: Transfer Learning & Auto-ML Using Optuna [WIP]
 description: Walkthrough
 img: assets/img/vrf_diagram.png
 importance: 1
-category: AI engineering
+category: Cloud ML
 related_publications: false
 ---
 
